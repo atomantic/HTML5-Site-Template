@@ -1,3 +1,6 @@
 @media print {
    @import url('print.css');
 }
+/* HTML5 elements that may not be natively supported */
+article, aside, details, figure, footer, header,
+  hgroup, menu, nav, section { display: block; }
